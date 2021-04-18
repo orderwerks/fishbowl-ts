@@ -51,6 +51,12 @@ declare const _default: {
         useLogger: boolean;
         logger: any;
         /**
+         * Re-establish a previous session, should there be a connection failure, etc.
+         *
+         * @param info {SessionInfo}
+         */
+        setSessionInfo(info: SessionInfo): void;
+        /**
          * @returns {SessionInfo}
          */
         getSessionInfo(): SessionInfo;

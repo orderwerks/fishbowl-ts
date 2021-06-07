@@ -61,6 +61,8 @@ export declare class Fishbowl {
      * Calls the next request in the queue
      */
     private deque;
+    createLoginRequest: () => string;
+    createLogoutRequest: () => string;
     /**
      * Helper function to login to Fishbowl
      */

@@ -32,6 +32,7 @@ export declare class Fishbowl {
      */
     constructor({ host, port, IAID, IAName, IADescription, username, password, useLogger }: ConstructorOptions, didError: (err: FbError | null, res: any) => void);
     private setupConnection;
+    disconnectConnection: () => void;
     private setupLogger;
     /**
      * Re-establish a previous session, should there be a connection failure, etc.

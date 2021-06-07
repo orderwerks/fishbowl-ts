@@ -83,6 +83,13 @@ export class Fishbowl {
         return new net.Socket(options);
     }
 
+    public disconnectConnection = (): void => {
+        if (this.connection) {
+            this.connection.destroy();
+            this.connected = false;
+        }
+    }
+
     private setupLogger = (): Logger => {
         return winston.createLogger({
             level: 'info',

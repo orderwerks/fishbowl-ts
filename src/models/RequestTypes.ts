@@ -1,4 +1,4 @@
-export namespace Types {
+export namespace RequestTypes {
   export interface ExecuteQuery {
     name?: string;
     query?: string;

@@ -1,18 +1,18 @@
-# Fishbowl-js
-The JavaScript wrapper for the Fishbowl API
+# Fishbowl-ts
+The TypeScript wrapper for the Fishbowl API
 
-[![npm](https://img.shields.io/npm/v/fishbowl-js.svg?color=orange&style=flat-square)](https://www.npmjs.com/package/fishbowl-js)[![Downloads](https://img.shields.io/npm/dt/fishbowl-js.svg?style=flat-square)](https://npmcharts.com/compare/fishbowl-js?minimal=true)
+[![npm](https://img.shields.io/npm/v/fishbowl-ts.svg?color=orange&style=flat-square)](https://www.npmjs.com/package/fishbowl-ts)[![Downloads](https://img.shields.io/npm/dt/fishbowl-ts.svg?style=flat-square)](https://npmcharts.com/compare/fishbowl-ts?minimal=true)
 
-[![NPM](https://nodei.co/npm/fishbowl-js.png?downloads=true&downloadRank=true)](https://nodei.co/npm/fishbowl-js/)
+[![NPM](https://nodei.co/npm/fishbowl-ts.png?downloads=true&downloadRank=true)](https://nodei.co/npm/fishbowl-ts/)
 
 ## Request options
-Reference [src/requestTypes.ts](src/requestTypes.ts) to learn option parameters for the different requests
+Reference [src/requestTypes.ts](src/models/requestTypes.ts) to learn option parameters for the different requests
 
 ## Fishbowl API
 If you have questions regarding the actual Fishbowl API please visit [the Fishbowl API wiki](https://www.fishbowlinventory.com/wiki/Fishbowl_API)
 
-## Donate
-Feel free to [donate](https://paypal.me/brennenrocks) to support Fishbowl-js! This project is Open Source and is not affiliated with Fishbowl Inventory.
+## Original Author
+This library was built around the original work done by [BrennanRocks](https://github.com/BrennenRocks)
 
 ## Usage
 The default options for the constructor are 

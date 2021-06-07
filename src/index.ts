@@ -425,6 +425,14 @@ export class Fishbowl {
         }
     };
 
+    public createLoginRequest = (): string => {
+        return GenerateQuery.loginRequest(this.key, this.IAID, this.IAName, this.IADescription, this.username, this.password);
+    }
+
+    public createLogoutRequest = (): string => {
+        return GenerateQuery.logoutRequest(this.key);
+    }
+
     /**
      * Helper function to login to Fishbowl
      */

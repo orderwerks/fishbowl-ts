@@ -7,7 +7,6 @@ import ConstructorOptions from './models/ConstructorOptions';
 import FbError from './models/FbError';
 import RequestEnum from './models/RequestEnum';
 import RequestOptions from './models/RequestOptions';
-import { RequestTypes } from './models/requestTypes';
 import ResponseEnum from './models/ResponseEnum';
 import SessionInfo from './models/SessionInfo';
 

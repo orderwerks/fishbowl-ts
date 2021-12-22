@@ -15,10 +15,7 @@ export default class GenerateQuery {
                         IAName: IAName,
                         IADescription: IADescription,
                         UserName: username,
-                        UserPassword: crypto
-                            .createHash('md5')
-                            .update(password)
-                            .digest('base64')
+                        UserPassword: password
                     }
                 }
             }
